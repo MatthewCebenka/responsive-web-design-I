@@ -452,6 +452,7 @@ footer {
         width: 70%;
         border-bottom: 1px solid black;
         margin: 0px 0px;
+        color: lightgray;
     }
 
     .services-nav {
@@ -483,7 +484,7 @@ footer {
           flex-direction: column;
           flex-flow: column;
           padding: 0px;
-        width: ;
+        /*width: ;*/
           /*align-items: center;*/
           /*border-right: 0px;*/
       }
@@ -491,10 +492,11 @@ footer {
         display: flex;
         flex-direction: column;
         flex-flow: column;
-        padding: 0px;
+        width: 50%;
+        padding-right: 20px;
     }
     .main-content img{
-        width: 60%;
+        width: 53%;
         display: flex;
         flex-direction: column;
         flex-flow: column;
@@ -507,7 +509,21 @@ footer {
         flex-flow: wrap;
         margin-bottom: 30px;
         border: none;
+    }
+    .contact{
+    display: flex;
+    flex-direction: column;
+        flex-wrap: column;
+    padding-top: 5px;
+    border-bottom: none;
+    margin-left: 200px;
+    margin-right: 200px;
 
+    }
+    footer{
+        justify-content: center;
+        border: none;
+        margin-bottom: 40px;
     }
 }
 
